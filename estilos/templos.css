@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: beige;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    background-color: #70428f;
+    color: white;
+    padding: 20px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+#menu {
+    display: block;
+}

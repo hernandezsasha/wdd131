@@ -16,4 +16,14 @@
         flex-direction: row;
     }
 
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header p {
+        margin: 0;
+    }
+
 }

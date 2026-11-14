@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
 
     .hero {
         position: relative;
@@ -38,7 +38,7 @@
     }
 
     .clima img.icone-clima {
-        display: none !important;
+        display: none;
     }
 
     .dados,

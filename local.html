@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Conheça a Suíça, suas paisagens, características e informações sobre o clima. ">
+    <meta name="author" content="Sasha Hernandez">
+    <title>Suíça | WDD 131</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="estilos/local.css">
+    <link rel="stylesheet" href="estilos/local-grande.css">
+    <script src="scripts/local.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Suíça</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source
+                    srcset="imagens/suica-grande.webp"
+                    media="(min-width:700px)">
+
+                <img src="imagens/suica-pequena.webp" 
+                alt="Paisagem da Suíça"
+                width="1500"
+                height="750">
+            </picture>
+
+            <section class="dados">
+                <h2>Dados</h2>
+                <div>
+                    <p><strong>Área:</strong> 41.285 km²</p>
+                    <p><strong>População:</strong> Aproximadamente 9 milhões</p>
+                    <p><strong>Capital:</strong> Berna</p>
+                    <p><strong>Idiomas oficiais:</strong> Alemão, francês, italiano e romanche</p>
+                    <p><strong>Moeda:</strong> Franco suíço</p>
+                    <p><strong>Fuso horário:</strong> UTC+1 (inverno) / UTC+2 (verão)</p>
+                    <p><strong>Código telefônico:</strong> +41</p>
+                    <p><strong>Domínio da internet:</strong> .ch</p>
+                </div>
+            </section>
+
+            <section class="clima">
+                <h2>Clima</h2>
+                <img
+                    class="icone-clima"
+                    src="imagens/clima.svg"
+                    alt="Ícone de tempo parcialmente nublado"
+                    width="20"
+                    height="20">
+                <div>
+                    <p><strong>Temperatura:</strong> 1 °C.</p>
+                    <p><strong>Condições:</strong> Parcialmente nublado</p>
+                    <p><strong>Vento: </strong>6,8 km/h</p>
+                    <p><strong>Sensação térmica:</strong>  <span id="sensacao-termica"></span></p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> Sasha Hernandez | Brasil</p>
+        <p>Última Modificação: <span id="ultimaModificacao"></span></p>
+    </footer>
+</body>
+</html>

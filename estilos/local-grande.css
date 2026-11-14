@@ -1,0 +1,62 @@
+@media screen and (min-width: 800px) {
+
+    .hero {
+        position: relative;
+        display: block;
+        padding: 0;
+    }
+
+    /* Imagem principal */
+    .hero picture img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    /* Caixa de dados */
+    .dados {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 220px;
+        padding: 1rem;
+    }
+
+    /* Caixa do clima */
+    .clima {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 220px;
+        padding: 1rem;
+    }
+
+    /* Ícone do clima */
+    .clima h2::after {
+        content: " ⛅";
+        margin-left: 0.5rem;
+    }
+
+    .clima img.icone-clima {
+        display: none !important;
+    }
+
+    .dados,
+    .clima {
+        padding: 0.7rem;
+    }
+
+    .dados h2,
+    .clima h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .dados p,
+    .clima p {
+        font-size: 0.85rem;
+        line-height: 1.2;
+        margin-bottom: 0.3rem;
+    }
+
+}

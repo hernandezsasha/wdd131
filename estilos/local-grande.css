@@ -2,7 +2,7 @@
 
     .hero {
         position: relative;
-        display: block;
+        display: grid;
         padding: 0;
     }
 

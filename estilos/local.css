@@ -36,7 +36,7 @@ main {
 }
 
 .hero {
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
@@ -92,12 +92,12 @@ footer p {
     display: block;
     width: 70px;
     height: 70px;
-    margin: 0 auto 1rem;   
+    margin: 0 auto 1rem;
 }
 
-.dados > div,
-.clima > div {
+.dados>div,
+.clima>div {
     width: fit-content;
     margin: 0 auto;
-    
+
 }

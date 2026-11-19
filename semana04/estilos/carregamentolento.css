@@ -1,0 +1,45 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Conteúdo principal */
+main {
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+}
+
+/* Imagens */
+img {
+    display: block;
+    width: 400px;
+    height: 600px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Animação das imagens */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+img {
+    animation: aparecer 2s ease-in-out;
+}

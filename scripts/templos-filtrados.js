@@ -165,5 +165,4 @@ linksMenu.forEach(link => {
     });
 });
 
-// Exibe todos os templos quando a página é aberta
 mostrarTemplos(templos);

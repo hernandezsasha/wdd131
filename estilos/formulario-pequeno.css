@@ -9,16 +9,16 @@
 body {
     font-size: 16px;
     font-family: Arial, sans-serif;
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #000;
 }
 
 /*----------- HEADER --------*/
 header h1 {
     padding: 20px;
-    background-color: rgb(39, 5, 68);
+    background-color: #270544;
     text-align: center;
-    color: white;
+    color: #fff;
     font-size: 1.5rem;
     max-width: 600px;
     margin: 0 auto;
@@ -30,7 +30,7 @@ main {
 }
 
 form {
-    background-color: rgb(221, 210, 231);
+    background-color: #ddd2e7;
     border: 1px solid #BDB4BD;
     border-radius: 7px;
     margin: 0 auto;
@@ -58,7 +58,7 @@ textarea {
     margin-bottom: 24px;
     border: 1px solid #bdb4bd;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fff;
 
 }
 
@@ -93,8 +93,8 @@ form label:has(input[type="checkbox"]) {
 
 input[type="submit"] {
     border: 1px solid #bdb4bd;
-    background-color: rgb(223, 198, 243);
-    color: black;
+    background-color: #dfc6f3;
+    color: #000;
     border-radius: 6px;
     padding: .8rem;
     width: 100%;
@@ -108,8 +108,8 @@ input[type="submit"] {
 /*------- FOOTER -----*/
 
 footer {
-    background-color: rgb(39, 5, 68);
-    color: white;
+    background-color: #270544;
+    color: #fff;
     text-align: center;
     padding: 25px 15px;
     font-size: 1.1rem;

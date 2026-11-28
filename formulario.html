@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Avalie produtos, compartilhe sua experiência e registre sua opinião sobre os recursos e a qualidade.">
+
+    <title>Avaliação do Produto | WDD131 - Sasha Hernandez</title>
+
+    <link rel="stylesheet" href="estilos/formulario-pequeno.css">
+    <link rel="stylesheet" href="estilos/formulario-grande.css">
+
+    <script src="scripts/formulario.js" defer></script>
+    <link rel="icon" href="imagens/favicon1.png">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO AQUI -->
+    <header>
+        <h1>Avaliação do Produto</h1>
+    </header>
+
+    <main>
+        <form method="GET" action="avaliacao.html">
+
+            <label for="produto">Nome do Produto</label>
+            <select name="produto" id="produto" required>
+                <option value="" disabled selected>Selecione um Produto...</option>
+            </select>
+
+            <fieldset>
+                <legend>Classificação Geral</legend>
+
+                <div class="estrelas">
+                    <label for="onestar">☆
+                        <input type="radio" id="onestar" name="stars" value="1" required></label>
+
+                    <label for="twostar">☆☆
+                        <input type="radio" id="twostar" name="stars" value="2" required></label>
+
+                    <label for="threestar">☆☆☆
+                        <input type="radio" id="threestar" name="stars" value="3" required></label>
+
+                    <label for="fourstar">☆☆☆☆
+                        <input type="radio" id="fourstar" name="stars" value="4" required></label>
+
+                    <label for="fivestar">☆☆☆☆☆
+                        <input type="radio" id="fivestar" name="stars" value="5" required></label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <label for="dt">Data de Instalação</label>
+                <input type="date" name="data" id="dt" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Recursos úteis</legend>
+                <p> Quais recursos você achou úteis no produto?</p>
+                <p>(Marque todos que se aplicam)</p>
+
+
+                <label><input type="checkbox" name="recurso" id="du" value="Durabilidade">Durabilidade</label>
+                <label><input type="checkbox" name="recurso" id="fa" value="Facilidade de Uso">Facilidade de
+                    Uso</label>
+                <label><input type="checkbox" name="recurso" id="de" value="Desempenho">Desempenho</label>
+                <label><input type="checkbox" name="recurso" id="des" value="Design">Design</label>
+
+            </fieldset>
+            <label for="av">Avaliação Escrita (opcional)<textarea name="avaliacao" id="av"></textarea></label>
+
+            <label for="nome">Nome de Usuário (opcional)<input type="text" name="nome" id="nome"></label>
+
+            <input type="submit" value="Publicar Avaliação">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="anoatual"></span>
+            Sasha Hernandez | Paraná, Brasil
+        </p>
+
+        <p id="ultimaModificacao"></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+/*----- CONFIGURAÇÃO GERAL -------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/*----------- HEADER --------*/
+header h1 {
+    padding: 20px;
+    background-color: rgb(39, 5, 68);
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+main {
+    padding: 24px 1%;
+}
+
+form {
+    background-color: rgb(221, 210, 231);
+    border: 1px solid #BDB4BD;
+    border-radius: 7px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 24px;
+    max-width: 600px;
+}
+
+form label,
+legend {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 24px;
+    border: 1px solid #bdb4bd;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+form label:has(input[type="checkbox"]) {
+    display: block;
+    margin: 10px 0;
+}
+
+.estrelas {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.estrelas label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.estrelas input[type="radio"] {
+    width: 26px;
+    height: 26px;
+}
+
+input[type="submit"] {
+    border: 1px solid #bdb4bd;
+    background-color: rgb(223, 198, 243);
+    color: black;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/*------- FOOTER -----*/
+
+footer {
+    background-color: rgb(39, 5, 68);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
